@@ -7,7 +7,7 @@
     
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "backlight", "keyboard-state", "network", "custom/power"],
+    "modules-right": ["pulseaudio", "backlight", "battery", "keyboard-state", "network", "custom/power"],
     
     "keyboard-state": {
         "capslock": true,
@@ -50,6 +50,18 @@
         "device": "intel_backlight",
         "format": "{percent}% {icon}",
         "format-icons": ["", ""]
+    },
+
+    "battery": {
+        "bat": "BAT2",
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     },
 
     "pulseaudio": {
