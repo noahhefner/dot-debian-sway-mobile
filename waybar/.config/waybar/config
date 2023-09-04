@@ -2,12 +2,12 @@
     "layer": "top",
     "position": "top",
     "height": 45,
-    "width": 1920,
+    "width": 1496,
     "spacing": 0,
     
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "keyboard-state", "network", "custom/power"],
+    "modules-right": ["pulseaudio", "backlight", "keyboard-state", "network", "custom/power"],
     
     "keyboard-state": {
         "capslock": true,
@@ -45,7 +45,13 @@
         "format-disconnected": "Disconnected",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", ""]
+    },
+
     "pulseaudio": {
         "format": "{icon} {volume}%    {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",

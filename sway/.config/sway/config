@@ -7,9 +7,6 @@ input 1133:49281:Logitech_Gaming_Mouse_G900 accel_profile flat
 # Set super key
 set $mod Mod4
 
-# Set display mode for Acer Predator
-output DP-1 resolution 1920x1080@60Hz position 1920,0
-
 # Remove header and keep only 2px border
 default_border pixel 4
 
@@ -36,7 +33,7 @@ floating_modifier $mod normal
 # Set terminal
 set $term kitty
 # Set launcher
-set $launcher yofi
+set $launcher fuzzel
 
 # Start terminal
 bindsym $mod+Return exec $term
