@@ -137,13 +137,11 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Background
-exec_always swaybg --mode fill --image /home/nhefner/Photos/river.jpg
+exec_always swaybg --mode fill --image /home/nhefner/dot-debian-sway-mobile/dot-common/wallpapers/yosemite.jpg
 
 # Waybar
 bar {
-
   swaybar_command waybar
-
 }
 
 # Window gaps
