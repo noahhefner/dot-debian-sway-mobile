@@ -34,12 +34,17 @@ floating_modifier $mod normal
 set $term kitty
 # Set launcher
 set $launcher fuzzel
+# Set power menu
+set $power nwg-bar
 
 # Start terminal
 bindsym $mod+Return exec $term
 
 # Start launcher
 bindsym $mod+d exec $launcher
+
+# Start nwg-bar
+bindsym $mod+Shift+p exec nwg-bar
 
 # Kill focused window
 bindsym $mod+q kill

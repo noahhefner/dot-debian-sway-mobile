@@ -60,6 +60,7 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
+        "format-charging": "({time}) {capacity}% 󰢝",
         "format-icons": ["", "", "", "", ""],
         "max-length": 25
     },

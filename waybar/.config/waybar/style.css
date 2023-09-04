@@ -41,7 +41,3 @@ tooltip {
     border-radius: 4px;
     margin: 8px 3px 0px 3px;                                     /* top margin value (8px) should match inner gaps value in sway config */
 }
-
-#mode {
-    background: rgba(54, 58, 79, 1);                            /* Surface 0 */
-}

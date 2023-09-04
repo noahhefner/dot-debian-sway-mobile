@@ -11,3 +11,7 @@
 5. `stow` the configs in this repo.
 
 6. Follow the instructions for the common config files in that repository.
+
+## Post-Install and Additional Packages
+
+- `nwg-bar`: Install from the [releases page](https://github.com/nwg-piotr/nwg-bar/releases)
