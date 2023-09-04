@@ -8,6 +8,6 @@
 
 3. Install packages using the `install_packages.sh` script.
 
-5. `stow` the configs for Sway and Waybar.
+5. `stow` the configs in this repo.
 
 6. Follow the instructions for the common config files in that repository.
