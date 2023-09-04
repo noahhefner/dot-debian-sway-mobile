@@ -136,6 +136,15 @@ mode "resize" {
 # Enter resize mode
 bindsym $mod+r mode "resize"
 
+# Adjust brightness
+bindsym XF86MonBrightnessDown exec 'brightnessctl s 5%-'
+bindsym XF86MonBrightnessUp exec 'brightnessctl s +5%'
+
+# Asjust volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id 'pactl set-sink-volume 0 +5%'
+bindsym XF86AudioLowerVolume exec --no-startup-id 'pactl set-sink-volume 0 -5%'
+bindsym XF86AudioMute exec --no-startup-id 'pactl set-sink-mute 0 toggle'
+
 # Background
 exec_always swaybg --mode fill --image /home/nhefner/dot-debian-sway-mobile/dot-common/wallpapers/yosemite.jpg
 
@@ -183,3 +192,4 @@ client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
 
 include @sysconfdir@/sway/config.d/*
+include touchpad
