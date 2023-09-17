@@ -9,6 +9,7 @@ stow
 ranger
 kitty
 flatpak
+fuzzel
 git
 clipman
 tree

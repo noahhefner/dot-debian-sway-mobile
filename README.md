@@ -2,16 +2,14 @@
 
 ## Installation and Setup
 
-1. Clone this repository.
+1. Clone this repository to your home directory.
 
-2. Update the submodule for common configs: `git submodule update --init --recursive`
+2. Install packages using the `install_packages.sh` script.
 
-3. Install packages using the `install_packages.sh` script.
-
-5. `stow` the configs in this repo.
-
-6. Follow the instructions for the common config files in that repository.
+3. `stow` the configs in this repo.
 
 ## Post-Install and Additional Packages
 
 - `nwg-bar`: Install from the [releases page](https://github.com/nwg-piotr/nwg-bar/releases)
+
+
