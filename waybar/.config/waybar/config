@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "height": 43,
-    "width": 1496,
+    "width": 1500,
     "spacing": 0,
     
     "modules-left": ["clock", "sway/workspaces", "sway/mode"],

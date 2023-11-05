@@ -152,7 +152,7 @@ bindsym XF86AudioMute exec --no-startup-id 'pactl set-sink-mute 0 toggle'
 
 # Background
 # Requires dot-common repository in hom directory
-exec_always swaybg --mode fill --image /home/nhefner/dot-common/wallpapers/yosemite.jpg
+exec_always swaybg --mode fill --image /home/nhefner/dot-common/wallpapers/yosemite_dark.jpg
 
 # Waybar
 bar {
